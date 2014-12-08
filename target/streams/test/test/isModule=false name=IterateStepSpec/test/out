@@ -1,0 +1,45 @@
+[0m[[0minfo[0m] [0m[32mIterateStepSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mValues[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mNeg[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mNot[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mSeq[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mPlus[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly for numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly for strings[0m[0m
+[0m[[0minfo[0m] [0m[32mMinus[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly when wrapped in Neg[0m[0m
+[0m[[0minfo[0m] [0m[32mTimes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mDiv[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mlt[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mle[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mgt[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mge[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mEq[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mNe[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mAnd[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mOr[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mif[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mDecl[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly for constants[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly for variables[0m[0m
+[0m[[0minfo[0m] [0m[32mCall[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate non-recursive functions correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate recursive functions correctly[0m[0m
+[0m[[0minfo[0m] [0m[32mGetField[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate correctly using small-step semantics[0m[0m

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Kierans-MacBook-Pro.local" name="TypeInferSpec" tests="55" errors="0" failures="0" time="0.117">
+                <properties> <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib"/><property name="java.vm.version" value="25.20-b23"/><property name="gopherProxySet" value="false"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/Users/Kieran/scala/lab5/lab5"/><property name="java.runtime.version" value="1.8.0_20-b26"/><property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/><property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/endorsed"/><property name="os.arch" value="x86_64"/><property name="java.io.tmpdir" value="/var/folders/n1/pxdsdl251hl3wcmq5nwjwcyc0000gn/T/"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Mac OS X"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.library.path" value="/Users/Kieran/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.10.1"/><property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="user.home" value="/Users/Kieran"/><property name="user.timezone" value="America/Denver"/><property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/local/Cellar/sbt/0.13.5/libexec/sbt-launch.jar"/><property name="user.name" value="Kieran"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/local/Cellar/sbt/0.13.5/libexec/sbt-launch.jar test"/><property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_20"/><property name="java.ext.dirs" value="/Users/Kieran/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/><property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeBig"/><property name="sun.cpu.endian" value="little"/><property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/><property name="sun.cpu.isalist" value=""/>
+        </properties>
+                <testcase classname="TypeInferSpec" name="Null should return type of TNull" time="0.005"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Number should return type of TNumber" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="String should return type of TString" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Boolean should return type of TBool" time="0.0"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Undefined should return type of TUndefined" time="0.0"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Not should check for type TBoolean" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Not should throw errors when appropriate" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Plus should check for type TNumber if given two TNumbers" time="0.0"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Plus should check for type TString if given two TStrings" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Plus should throw errors when appropriate" time="0.005"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Minus should check for type TNumber if given two TNumbers" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Minus should throw errors when appropriate" time="0.006"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Times should check for type TNumber if given two TNumbers" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Times should throw errors when appropriate" time="0.006"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Div should check for type TNumber if given two TNumbers" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Div should throw errors when appropriate" time="0.006"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Eq should check for type TBoolean if types are same, else error" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Ne should check for type TBoolean if types are same, else error" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Ne should error if either e1 or e2 is a function" time="0.004"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Lt should check for type TBoolean if TNumber or TString" time="0.0"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Lt should throw errors when appropriate" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Le should check for type TBoolean if TNumber or TString" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Le should throw errors when appropriate" time="0.004"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Gt should check for type TBoolean if TNumber or TString, else error" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Gt should throw errors when appropriate" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Ge should check for type TBoolean if TNumber or TString" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Ge should throw errors when appropriate" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="And should check for type TBoolean" time="0.0"> 
+                    </testcase><testcase classname="TypeInferSpec" name="And should throw errors when appropriate" time="0.003"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Or should check for type TBoolean" time="0.003"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Seq should check for same type as e2" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="If should throw error if e1 not of type TBoolean" time="0.003"> 
+                    </testcase><testcase classname="TypeInferSpec" name="If should check for return type the same as e2 &amp; e3" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="If should throw error if e2 and e3 types differ" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Function should check for correct return type" time="0.007"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Function should check for correct return type for recursive functions" time="0.005"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Function should throw error if function has wrong return type" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Function should support PVar" time="0.004"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Function should support PName" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Function should support PRef" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Call should check return type matches the function's return type" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Call should throw error if the call's arg types don't match the function's param types" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Call should throw StaticTypeError if wrong number of args is given" time="0.006"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Obj should check that an obj map returns it's appropriate type map" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="GetField should check return type matches type of corresponding field" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="GetField should throw error if first parameter is not an Obj" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="GetField should throw error if second parameter is an empty string" time="0.0"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Decl should infer return type to be same as e2 for MConst" time="0.0"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Decl should infer return type to be same as e2 for MVar" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Assign should handle variables correctly" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Assign should error if assignment is of different type from variable" time="0.002"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Assign should handle objects/fields correctly" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Assign should error if object/field types don't match" time="0.001"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Cast should check for valid cast type" time="0.003"> 
+                    </testcase><testcase classname="TypeInferSpec" name="Cast should throw appropriate errors" time="0.003"> 
+                    </testcase>
+                <system-out></system-out>
+                <system-err></system-err>
+                </testsuite>

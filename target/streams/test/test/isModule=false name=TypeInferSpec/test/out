@@ -1,0 +1,83 @@
+[0m[[0minfo[0m] [0m[32mTypeInferSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mNull[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return type of TNull[0m[0m
+[0m[[0minfo[0m] [0m[32mNumber[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return type of TNumber[0m[0m
+[0m[[0minfo[0m] [0m[32mString[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return type of TString[0m[0m
+[0m[[0minfo[0m] [0m[32mBoolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return type of TBool[0m[0m
+[0m[[0minfo[0m] [0m[32mUndefined[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return type of TUndefined[0m[0m
+[0m[[0minfo[0m] [0m[32mNot[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mPlus[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TNumber if given two TNumbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TString if given two TStrings[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mMinus[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TNumber if given two TNumbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mTimes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TNumber if given two TNumbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mDiv[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TNumber if given two TNumbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mEq[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean if types are same, else error[0m[0m
+[0m[[0minfo[0m] [0m[32mNe[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean if types are same, else error[0m[0m
+[0m[[0minfo[0m] [0m[32m- should error if either e1 or e2 is a function[0m[0m
+[0m[[0minfo[0m] [0m[32mLt[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean if TNumber or TString[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mLe[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean if TNumber or TString[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mGt[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean if TNumber or TString, else error[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mGe[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean if TNumber or TString[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mAnd[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw errors when appropriate[0m[0m
+[0m[[0minfo[0m] [0m[32mOr[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for type TBoolean[0m[0m
+[0m[[0minfo[0m] [0m[32mSeq[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for same type as e2[0m[0m
+[0m[[0minfo[0m] [0m[32mIf[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw error if e1 not of type TBoolean[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for return type the same as e2 & e3[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw error if e2 and e3 types differ[0m[0m
+[0m[[0minfo[0m] [0m[32mFunction[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for correct return type[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for correct return type for recursive functions[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw error if function has wrong return type[0m[0m
+[0m[[0minfo[0m] [0m[32m- should support PVar[0m[0m
+[0m[[0minfo[0m] [0m[32m- should support PName[0m[0m
+[0m[[0minfo[0m] [0m[32m- should support PRef[0m[0m
+[0m[[0minfo[0m] [0m[32mCall[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check return type matches the function's return type[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw error if the call's arg types don't match the function's param types[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw StaticTypeError if wrong number of args is given[0m[0m
+[0m[[0minfo[0m] [0m[32mObj[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check that an obj map returns it's appropriate type map[0m[0m
+[0m[[0minfo[0m] [0m[32mGetField[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check return type matches type of corresponding field[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw error if first parameter is not an Obj[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw error if second parameter is an empty string[0m[0m
+[0m[[0minfo[0m] [0m[32mDecl[0m[0m
+[0m[[0minfo[0m] [0m[32m- should infer return type to be same as e2 for MConst[0m[0m
+[0m[[0minfo[0m] [0m[32m- should infer return type to be same as e2 for MVar[0m[0m
+[0m[[0minfo[0m] [0m[32mAssign[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle variables correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should error if assignment is of different type from variable[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle objects/fields correctly[0m[0m
+[0m[[0minfo[0m] [0m[32m- should error if object/field types don't match[0m[0m
+[0m[[0minfo[0m] [0m[32mCast[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check for valid cast type[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw appropriate errors[0m[0m
